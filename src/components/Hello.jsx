@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import { bool, shape, string } from 'prop-types';
 
 function Hello(props) {
-  const { children, bang, style} = props;
+  const { children, bang, style } = props;
   return (
     <View>
       <Text style={[styles.text, style]}>
